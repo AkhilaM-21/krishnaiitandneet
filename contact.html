@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Krishna Academy for admissions, batch schedules, or demo lectures for IIT-JEE and NEET.">
+    <title>Contact Us | Krishna Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="nav-brand">
+            <img src="assets/logo.png" alt="Krishna Academy" class="nav-logo">
+            <span class="brand-name">Krishna<span class="text-gradient">Academy</span></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary nav-cta"><i class="fa-solid fa-rocket"></i> Enroll Now</a>
+        <div class="mobile-menu-btn" id="mobileBtn"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+
+    <header class="page-header">
+        <div class="section-pill">Reach Us</div>
+        <h1>Get In <span class="text-gradient">Touch</span></h1>
+        <p>Have questions about admissions, batch timings, or fee structures? We are here to help you kickstart your
+            journey to success.</p>
+    </header>
+
+    <!-- QUICK CONTACT BANNER -->
+    <div class="contact-banner">
+        <div class="cbanner-orb cbanner-orb-1"></div>
+        <div class="cbanner-orb cbanner-orb-2"></div>
+        <div class="cbanner-inner">
+            <a href="tel:+919876543210" class="cbanner-item fade-up delay-1">
+                <div class="cbanner-icon-ring">
+                    <div class="cbanner-icon"><i class="fa-solid fa-phone"></i></div>
+                </div>
+                <div class="cbanner-text">
+                    <span class="cbanner-label">Call Us Anytime</span>
+                    <strong class="cbanner-val">+91 98765 43210</strong>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square cbanner-link-icon"></i>
+            </a>
+            <div class="cbanner-divider"></div>
+            <a href="mailto:info@krishnaacademy.com" class="cbanner-item fade-up delay-2">
+                <div class="cbanner-icon-ring cbanner-icon-ring--green">
+                    <div class="cbanner-icon cbanner-icon--green"><i class="fa-solid fa-envelope"></i></div>
+                </div>
+                <div class="cbanner-text">
+                    <span class="cbanner-label">Drop an Email</span>
+                    <strong class="cbanner-val">info@krishnaacademy.com</strong>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square cbanner-link-icon"></i>
+            </a>
+            <div class="cbanner-divider"></div>
+            <div class="cbanner-item fade-up delay-3">
+                <div class="cbanner-icon-ring cbanner-icon-ring--gold">
+                    <div class="cbanner-icon cbanner-icon--gold"><i class="fa-solid fa-clock"></i></div>
+                </div>
+                <div class="cbanner-text">
+                    <span class="cbanner-label">Office Hours</span>
+                    <strong class="cbanner-val">Mon – Sat &nbsp;·&nbsp; 9 AM – 6 PM</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTACT SECTION -->
+    <section class="section">
+        <div class="contact-container">
+            <!-- Left Info -->
+            <div class="contact-info fade-up delay-1">
+                <h2>Reach Out to <span class="text-gradient">Our Experts</span></h2>
+                <p>Our academic counselors are available Monday through Saturday to provide tailored guidance for your
+                    preparation journey.</p>
+
+                <div class="info-item">
+                    <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <div>
+                        <h4>Head Office</h4>
+                        <p>123 Education Hub, Ground Floor,<br>Sector 4, Tech City,<br>State — 400010, India</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                    <div>
+                        <h4>Helpline Numbers</h4>
+                        <p>+91 98765 43210<br>+91 91234 56789</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                    <div>
+                        <h4>Email Inquiries</h4>
+                        <p>admissions@krishnaacademy.com<br>support@krishnaacademy.com</p>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <i class="fa-solid fa-map"></i>
+                    <span>Interactive Google Map — 123 Education Hub, Tech City</span>
+                </div>
+            </div>
+
+            <!-- Right Form -->
+            <div class="contact-form fade-up delay-2">
+                <h3>Send a <span class="text-gradient">Message</span></h3>
+                <form action="#" method="POST" onsubmit="handleSubmit(event)">
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" class="form-control" placeholder="e.g. Siddharth" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" class="form-control" placeholder="e.g. Sharma">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" placeholder="e.g. sid@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-control" placeholder="10-digit mobile number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="course">Interested Course</label>
+                        <select id="course" class="form-control" required
+                            style="cursor:pointer;appearance:none;-webkit-appearance:none">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="jee-1yr">IIT-JEE 1-Year Program</option>
+                            <option value="jee-2yr">IIT-JEE 2-Year Program (Zenith)</option>
+                            <option value="neet-1yr">NEET (UG) 1-Year Program</option>
+                            <option value="neet-2yr">NEET (UG) 2-Year Program (Apex)</option>
+                            <option value="dropper">Phoenix Dropper Batch</option>
+                            <option value="foundation">Foundation Course (IX &amp; X)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Additional Query</label>
+                        <textarea id="message" class="form-control"
+                            placeholder="How can we assist you further?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;padding:15px"
+                        id="submitBtn">
+                        Submit Enquiry <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                    <div id="successMsg"
+                        style="display:none;margin-top:16px;padding:14px 18px;background:rgba(16,185,129,.1);border:1.5px solid rgba(16,185,129,.3);border-radius:12px;color:#10B981;font-weight:600;display:none;align-items:center;gap:10px">
+                        <i class="fa-solid fa-circle-check" style="font-size:1.2rem"></i>
+                        <span>Message sent successfully! We'll be in touch shortly.</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="section" style="background:var(--surface)">
+        <div class="section-title fade-up">
+            <div class="section-pill">FAQs</div>
+            <h2>Frequently Asked <span class="text-gradient">Questions</span></h2>
+            <p>Quick answers to common questions about admissions and our programs.</p>
+        </div>
+        <div style="max-width:780px;margin:0 auto;display:flex;flex-direction:column;gap:14px">
+            <div class="faq-item fade-up delay-1">
+                <div class="faq-q" onclick="toggleFaq(this)">
+                    <span>When do the new batches start?</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-a">New batches commence in April-May (summer), June-July (post-boards) each year.
+                    Dropper batches start from August-September.</div>
+            </div>
+            <div class="faq-item fade-up delay-2">
+                <div class="faq-q" onclick="toggleFaq(this)">
+                    <span>Is there a scholarship or fee concession?</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-a">Yes! We offer merit-based scholarships for students scoring above 80% in board exams
+                    and talent test qualifiers. Contact our admissions team for details.</div>
+            </div>
+            <div class="faq-item fade-up delay-3">
+                <div class="faq-q" onclick="toggleFaq(this)">
+                    <span>Are online classes available?</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-a">We offer hybrid programs where classroom sessions are supplemented by our full-stack
+                    online portal with recorded lectures, live doubt sessions, and digital DPPs.</div>
+            </div>
+            <div class="faq-item fade-up delay-1">
+                <div class="faq-q" onclick="toggleFaq(this)">
+                    <span>What is the batch size at Krishna Academy?</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-a">We cap batches at 35-40 students to ensure individual attention and meaningful
+                    faculty-student interaction.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section section">
+        <div class="cta-card fade-up">
+            <div class="cta-orb cta-orb-1"></div>
+            <div class="cta-orb cta-orb-2"></div>
+            <div class="cta-pill">Your Journey Starts Now</div>
+            <h2>One Call Can Change<br><span class="text-gradient-white">Your Entire Future</span></h2>
+            <p>Speak to our counsellors today — free, no-obligation academic guidance session awaits you.</p>
+            <div class="cta-actions">
+                <a href="tel:+919876543210" class="btn btn-white btn-lg"><i class="fa-solid fa-phone"></i> Call Us
+                    Now</a>
+                <a href="courses.html" class="btn btn-glass btn-lg">Explore Programs <i
+                        class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo-wrap"><img src="assets/logo.png" alt="Krishna Academy"
+                        class="footer-logo"><span>Krishna Academy</span></div>
+                <p>Guiding students toward their goals of securing top ranks in IIT-JEE and NEET through uncompromising
+                    quality and discipline.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="courses.html"><i class="fa-solid fa-chevron-right"></i> Our Courses</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Programs</h4>
+                <ul>
+                    <li><a href="courses.html"><i class="fa-solid fa-chevron-right"></i> IIT-JEE Main</a></li>
+                    <li><a href="courses.html"><i class="fa-solid fa-chevron-right"></i> IIT-JEE Advanced</a></li>
+                    <li><a href="courses.html"><i class="fa-solid fa-chevron-right"></i> NEET (UG)</a></li>
+                    <li><a href="courses.html"><i class="fa-solid fa-chevron-right"></i> Foundation (IX &amp; X)</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i><span>123 Education Hub, Sector 4,<br>Tech City,
+                            India</span></li>
+                    <li><i class="fa-solid fa-phone"></i><span>+91 98765 43210</span></li>
+                    <li><i class="fa-solid fa-envelope"></i><span>info@krishnaacademy.com</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Krishna Academy. All rights reserved. <span>Designed for Excellence.</span></p>
+        </div>
+    </footer>
+
+    <style>
+        .faq-item {
+            background: #fff;
+            border: 1.5px solid var(--border);
+            border-radius: var(--radius);
+            overflow: hidden;
+            transition: var(--transition)
+        }
+
+        .faq-item:hover {
+            border-color: rgba(99, 102, 241, .22)
+        }
+
+        .faq-q {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 24px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: .98rem;
+            font-family: 'Outfit', sans-serif;
+            user-select: none;
+            transition: var(--transition)
+        }
+
+        .faq-q:hover {
+            background: var(--surface)
+        }
+
+        .faq-q.open {
+            background: rgba(99, 102, 241, .04);
+            color: var(--iit)
+        }
+
+        .faq-q.open i {
+            transform: rotate(180deg);
+            color: var(--iit)
+        }
+
+        .faq-q i {
+            transition: transform .3s;
+            font-size: .8rem;
+            color: var(--muted)
+        }
+
+        .faq-a {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height .4s ease, padding .3s;
+            padding: 0 24px;
+            color: var(--muted);
+            font-size: .95rem;
+            line-height: 1.7
+        }
+
+        .faq-a.open {
+            max-height: 200px;
+            padding: 4px 24px 20px
+        }
+    </style>
+
+    <script>
+        window.addEventListener('scroll', () => document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60));
+        const mobileBtn = document.getElementById('mobileBtn'), navLinks = document.getElementById('navLinks');
+        mobileBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileBtn.innerHTML = navLinks.classList.contains('active') ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+        });
+        const io = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } }), { threshold: .1 });
+        document.querySelectorAll('.fade-up').forEach(el => io.observe(el));
+
+        function toggleFaq(el) {
+            const a = el.nextElementSibling;
+            const isOpen = el.classList.contains('open');
+            document.querySelectorAll('.faq-q').forEach(q => { q.classList.remove('open'); q.nextElementSibling.classList.remove('open'); });
+            if (!isOpen) { el.classList.add('open'); a.classList.add('open'); }
+        }
+
+        function handleSubmit(e) {
+            e.preventDefault();
+            const btn = document.getElementById('submitBtn');
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending...';
+            btn.disabled = true;
+            setTimeout(() => {
+                btn.innerHTML = '<i class="fa-solid fa-check"></i> Sent Successfully!';
+                btn.style.background = 'linear-gradient(135deg,#10B981,#06B6D4)';
+                const msg = document.getElementById('successMsg');
+                msg.style.display = 'flex';
+                setTimeout(() => {
+                    btn.innerHTML = 'Submit Enquiry <i class="fa-solid fa-paper-plane"></i>';
+                    btn.style.background = '';
+                    btn.disabled = false;
+                    msg.style.display = 'none';
+                    e.target.reset();
+                }, 4000);
+            }, 1500);
+        }
+    </script>
+    <script src="chatbot.js"></script>
+</body>
+
+</html>

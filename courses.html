@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Courses at Krishna Academy - IIT-JEE, NEET, Dropper Batches, Foundation programs with detailed syllabus and fee structure.">
+    <title>Courses &amp; Exam Guide | Krishna Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="nav-brand">
+            <img src="assets/logo.png" alt="Krishna Academy" class="nav-logo">
+            <span class="brand-name">Krishna<span class="text-gradient">Academy</span></span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary nav-cta"><i class="fa-solid fa-rocket"></i> Enroll Now</a>
+        <div class="mobile-menu-btn" id="mobileBtn"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+
+    <header class="page-header">
+        <div class="section-pill">Programs &amp; Guide</div>
+        <h1>Courses &amp; <span class="text-gradient">Exam Guide</span></h1>
+        <p>Compare IIT-JEE and NEET, explore our programs, and make an informed decision about your future.</p>
+    </header>
+
+    <!-- IIT vs NEET COMPARISON -->
+    <section class="section">
+        <div class="section-title fade-up">
+            <div class="section-pill">Head to Head</div>
+            <h2>IIT-JEE vs. NEET: <span class="text-gradient">Which is Right For You?</span></h2>
+            <p>Choosing between Engineering and Medical paths defines your future. Let's break down what each exam
+                demands.</p>
+        </div>
+
+        <!-- Visual Path Cards -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:900px;margin:0 auto 50px;"
+            class="fade-up delay-1">
+            <div style="background:linear-gradient(135deg,#EEF2FF,#C7D2FE);border:1.5px solid rgba(99,102,241,.2);border-radius:var(--radius-lg);padding:36px;text-align:center;position:relative;overflow:hidden;transition:var(--transition)"
+                onmouseover="this.style.transform='translateY(-6px)'" onmouseout="this.style.transform='none'">
+                <div
+                    style="position:absolute;top:-20px;right:-20px;width:100px;height:100px;background:rgba(99,102,241,.15);border-radius:50%;filter:blur(20px)">
+                </div>
+                <div
+                    style="width:70px;height:70px;background:rgba(99,102,241,.15);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;font-size:1.8rem;color:#6366F1;margin:0 auto 16px">
+                    <i class="fa-solid fa-microchip"></i>
+                </div>
+                <h3 style="font-size:1.4rem;margin-bottom:8px;color:var(--text)">IIT-JEE</h3>
+                <p style="color:var(--muted);font-size:.95rem;line-height:1.65">Engineering path — IITs, NITs, IIITs
+                    &amp; top engineering colleges. PCM subjects with deep analytical reasoning.</p>
+                <div
+                    style="margin-top:18px;display:inline-flex;align-items:center;gap:7px;background:rgba(99,102,241,.1);color:#6366F1;padding:6px 16px;border-radius:50px;font-size:.82rem;font-weight:700;font-family:'Outfit',sans-serif">
+                    Engineering Track</div>
+            </div>
+            <div style="background:linear-gradient(135deg,#D1FAE5,#6EE7B7);border:1.5px solid rgba(16,185,129,.2);border-radius:var(--radius-lg);padding:36px;text-align:center;position:relative;overflow:hidden;transition:var(--transition)"
+                onmouseover="this.style.transform='translateY(-6px)'" onmouseout="this.style.transform='none'">
+                <div
+                    style="position:absolute;top:-20px;right:-20px;width:100px;height:100px;background:rgba(16,185,129,.15);border-radius:50%;filter:blur(20px)">
+                </div>
+                <div
+                    style="width:70px;height:70px;background:rgba(16,185,129,.15);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;font-size:1.8rem;color:#10B981;margin:0 auto 16px">
+                    <i class="fa-solid fa-stethoscope"></i>
+                </div>
+                <h3 style="font-size:1.4rem;margin-bottom:8px;color:var(--text)">NEET</h3>
+                <p style="color:var(--muted);font-size:.95rem;line-height:1.65">Medical path — AIIMS, MBBS, BDS &amp;
+                    top medical colleges. PCB subjects with NCERT mastery.</p>
+                <div
+                    style="margin-top:18px;display:inline-flex;align-items:center;gap:7px;background:rgba(16,185,129,.1);color:#10B981;padding:6px 16px;border-radius:50px;font-size:.82rem;font-weight:700;font-family:'Outfit',sans-serif">
+                    Medical Track</div>
+            </div>
+        </div>
+
+        <div style="max-width:1000px;margin:0 auto" class="fade-up delay-2">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Criteria</th>
+                        <th><i class="fa-solid fa-microchip" style="margin-right:8px"></i>IIT-JEE (Main &amp; Advanced)
+                        </th>
+                        <th><i class="fa-solid fa-stethoscope" style="margin-right:8px"></i>NEET (UG)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Primary Purpose</strong></td>
+                        <td>Admission to IITs, NITs, IIITs &amp; top engineering colleges</td>
+                        <td>Admission to MBBS, BDS, AYUSH medical courses</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Core Subjects</strong></td>
+                        <td>Physics, Chemistry, Mathematics (PCM)</td>
+                        <td>Physics, Chemistry, Biology — Botany &amp; Zoology (PCB)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Exam Pattern</strong></td>
+                        <td>Computer-Based Test (CBT). Main checks aptitude; Advanced tests deep conceptual logic.</td>
+                        <td>Pen &amp; Paper OMR mode. High speed and accuracy are crucial.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Difficulty Focus</strong></td>
+                        <td>Heavy analytical reasoning, application-based complex integrations.</td>
+                        <td>Voluminous syllabus recall, Biology memorization, rapid problem-solving.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Attempts</strong></td>
+                        <td>3 attempts for JEE Main; 2 for Advanced</td>
+                        <td>Unlimited attempts (as per NMC guidelines)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- PROGRAMS -->
+    <section class="section" style="background:var(--surface)">
+        <div class="section-title fade-up">
+            <div class="section-pill">Classroom Programs</div>
+            <h2>Our Specialized <span class="text-gradient">Programs</span></h2>
+            <p>Premium lectures, personalized guidance, and regular assessments designed by experts.</p>
+        </div>
+        <div class="grid" style="max-width:1100px;margin:0 auto">
+            <!-- JEE 2-Year -->
+            <div class="card course-card fade-up delay-1">
+                <span class="course-badge">Engineering</span>
+                <div class="card-icon"><i class="fa-solid fa-rocket"></i></div>
+                <h3>Zenith 2-Year IIT-JEE</h3>
+                <p>For Class 11 students. Covers NCERT foundation moving into profound advanced conceptual mastery.</p>
+                <div class="course-features">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Complete Class 11 &amp; 12 Syllabus</li>
+                        <li><i class="fa-solid fa-check"></i> 800+ Hours of Live Lectures</li>
+                        <li><i class="fa-solid fa-check"></i> Advanced Problem Solving Modules</li>
+                        <li><i class="fa-solid fa-check"></i> 50+ Major Test Series with Analytics</li>
+                    </ul>
+                </div>
+                <div class="course-price">₹1,20,000<span>/ Year</span></div>
+                <a href="contact.html" class="btn btn-primary">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <!-- NEET 2-Year -->
+            <div class="card course-card fade-up delay-2">
+                <span class="course-badge">Medical</span>
+                <div class="card-icon" style="background:rgba(16,185,129,.1);color:#10B981"><i
+                        class="fa-solid fa-staff-snake"></i></div>
+                <h3>Apex 2-Year NEET</h3>
+                <p>For Class 11 students. Total command over NCERT Biology lines and numerical agility for Physics &amp;
+                    Chemistry.</p>
+                <div class="course-features">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> NCERT Line-by-Line Coverage</li>
+                        <li><i class="fa-solid fa-check"></i> Botany &amp; Zoology Specialized Faculty</li>
+                        <li><i class="fa-solid fa-check"></i> Flashcards &amp; Memory Strategies</li>
+                        <li><i class="fa-solid fa-check"></i> Speed &amp; Accuracy OMR Mock Exams</li>
+                    </ul>
+                </div>
+                <div class="course-price">₹1,15,000<span>/ Year</span></div>
+                <a href="contact.html" class="btn btn-success">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <!-- Dropper -->
+            <div class="card course-card fade-up delay-3">
+                <span class="course-badge" style="background:linear-gradient(135deg,#F59E0B,#EF4444)">Repeater</span>
+                <div class="card-icon" style="background:rgba(245,158,11,.1);color:#F59E0B"><i
+                        class="fa-solid fa-rotate-right"></i></div>
+                <h3>Phoenix 1-Year Dropper Batch</h3>
+                <p>Intensive rapid-revision for 12th pass students targeting drastic rank improvements in the upcoming
+                    attempt.</p>
+                <div class="course-features">
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Fast-Paced Curriculum Review</li>
+                        <li><i class="fa-solid fa-check"></i> Focus on Weak Areas &amp; Doubt Clearing</li>
+                        <li><i class="fa-solid fa-check"></i> Daily Practice Problems (DPPs)</li>
+                        <li><i class="fa-solid fa-check"></i> Dedicated Mentorship Sessions</li>
+                    </ul>
+                </div>
+                <div class="course-price">₹1,50,000<span>/ Complete</span></div>
+                <a href="contact.html" class="btn btn-primary">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT'S INCLUDED -->
+    <section class="section">
+        <div class="section-title fade-up">
+            <div class="section-pill">Inclusions</div>
+            <h2>What's <span class="text-gradient">Included</span></h2>
+            <p>Every program at Krishna Academy comes packed with resources designed for maximum results.</p>
+        </div>
+        <div class="inclusions-grid">
+            <div class="incl-item fade-up delay-1">
+                <div class="fri-num">01</div>
+                <div class="fri-icon"><i class="fa-solid fa-book-open"></i></div>
+                <div class="fri-body">
+                    <h3>Study Material</h3>
+                    <p>Proprietary books, DPPs, and chapter-wise question banks crafted by our expert faculty team.</p>
+                </div>
+            </div>
+            <div class="incl-item fade-up delay-2">
+                <div class="fri-num">02</div>
+                <div class="fri-icon"><i class="fa-solid fa-video"></i></div>
+                <div class="fri-body">
+                    <h3>Recorded Lectures</h3>
+                    <p>Full-HD lecture recordings accessible 24/7 on our portal so you never miss a class.</p>
+                </div>
+            </div>
+            <div class="incl-item fade-up delay-3">
+                <div class="fri-num">03</div>
+                <div class="fri-icon"><i class="fa-solid fa-chart-bar"></i></div>
+                <div class="fri-body">
+                    <h3>Performance Analytics</h3>
+                    <p>AI-powered test analytics that pinpoint weak topics, time management, and accuracy patterns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section section">
+        <div class="cta-card fade-up">
+            <div class="cta-orb cta-orb-1"></div>
+            <div class="cta-orb cta-orb-2"></div>
+            <div class="cta-pill">Seats Filling Fast</div>
+            <h2>Choose Your Program<br><span class="text-gradient-white">Start Today</span></h2>
+            <p>Don't wait — every day of quality preparation counts. Book a free counselling session now.</p>
+            <div class="cta-actions">
+                <a href="contact.html" class="btn btn-white btn-lg">Book Free Counselling <i
+                        class="fa-solid fa-phone"></i></a>
+                <a href="about.html" class="btn btn-glass btn-lg">Know More <i
+                        class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo-wrap"><img src="assets/logo.png" alt="Krishna Academy"
+                        class="footer-logo"><span>Krishna Academy</span></div>
+                <p>Guiding students toward their goals of securing top ranks in IIT-JEE and NEET through uncompromising
+                    quality and discipline.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="courses.html"><i class="fa-solid fa-chevron-right"></i> Our Courses</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Programs</h4>
+                <ul>
+                    <li><a href="courses.html"><i class="fa-solid fa-chevron-right"></i> IIT-JEE Main</a></li>
+                    <li><a href="courses.html"><i class="fa-solid fa-chevron-right"></i> IIT-JEE Advanced</a></li>
+                    <li><a href="courses.html"><i class="fa-solid fa-chevron-right"></i> NEET (UG)</a></li>
+                    <li><a href="courses.html"><i class="fa-solid fa-chevron-right"></i> Foundation (IX &amp; X)</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i><span>123 Education Hub, Sector 4,<br>Tech City,
+                            India</span></li>
+                    <li><i class="fa-solid fa-phone"></i><span>+91 98765 43210</span></li>
+                    <li><i class="fa-solid fa-envelope"></i><span>info@krishnaacademy.com</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Krishna Academy. All rights reserved. <span>Designed for Excellence.</span></p>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60));
+        const mobileBtn = document.getElementById('mobileBtn'), navLinks = document.getElementById('navLinks');
+        mobileBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileBtn.innerHTML = navLinks.classList.contains('active') ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+        });
+        const io = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } }), { threshold: .1 });
+        document.querySelectorAll('.fade-up').forEach(el => io.observe(el));
+    </script>
+    <script src="chatbot.js"></script>
+</body>
+
+</html>
