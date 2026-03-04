@@ -1,0 +1,6 @@
+assets/venv/
+.vscode/
+*.py
+*.pyc
+__pycache__/
+*.log

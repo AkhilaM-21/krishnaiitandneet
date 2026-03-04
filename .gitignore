@@ -1,0 +1,22 @@
+# Python virtual environment — DO NOT DEPLOY
+assets/venv/
+venv/
+env/
+__pycache__/
+*.py
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
